@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Google Automation Test]" guice-stage="DEVELOPMENT">
+  <test name="Google Test(failed)">
+    <parameter name="searchtext" value="selenium"/>
+    <parameter name="url" value="https://www.google.com/"/>
+    <classes>
+      <class name="com.parametersTest.DataTest">
+        <methods>
+          <include name="dataTest"/>
+        </methods>
+      </class> <!-- com.parametersTest.DataTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+</suite> <!-- Failed suite [Google Automation Test] -->
